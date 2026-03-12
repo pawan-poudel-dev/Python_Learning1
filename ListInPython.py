@@ -6,10 +6,13 @@ for i in range(num):
     numbers.append(number)
 even_sum = 0
 odd_sum = 0
+#loop to calculate the odd number 
 for number in numbers:  
     if number % 2 == 0:  
         even_sum += number  
     else:  
         odd_sum += number
+        #print result 
+        
 print("the sum of even numbers is:",even_sum)
 print("the sum of odd numbers is:",odd_sum)
