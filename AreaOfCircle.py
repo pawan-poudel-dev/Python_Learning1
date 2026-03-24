@@ -1,8 +1,6 @@
-#This program will calculate the area of a circle based on user input for the radius.
-import math
-#This program will calculate the area of a circle based on user input for the radius.
-radius = float(input("Enter the radius of the circle: "))
-#calculating the area of the circle using the formula A = πr^2 and printing the result to the user
-area = math.pi * radius**2
-#printing the area of the circle to the user
-print("The area of the circle is: ", area)
+#WAP that take diameter as input and calculate the area of a circle
+diameter = float(input("Diameter is :"))
+# first method is using the formula pi* d^2/2
+pi = 3.14
+area = (pi* diameter**2)/4
+print(f"Area of circle is : {area}")
