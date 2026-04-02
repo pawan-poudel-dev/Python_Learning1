@@ -1,11 +1,5 @@
-name = "Pawan"
-name1 = 'pawan'
-name2='''pawan'''
-age = 12
-price = 25.99
-print(type(name))
-print(type(age))
-print(type(price))
-print(name)
-print(name1)
-print(name2)
+list =[1,2,3,4,5,6,7,8,9]
+list.remove(3)
+print(list)
+list.remove(6)
+print(list)

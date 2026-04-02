@@ -1,19 +1,9 @@
-#example of the arithmetic operator 
-num1 = 23
-num2 = 2
-c =num1**num2
-sum = num1 + num2
-print(c)
-
-# diff = num1- num2
-# multiplication =num1 *num2
-# division = num1/num2
-# remainder = num2 %num1
-# floor_division =num1//num2
-# print("The sum is:",sum)
-# print("The difference is:",diff)
-# print("Te multiple of:",multiplication)
-# print("The remainder of:",remainder)
-# print("The floor division is:",floor_division)
-# print("The division is :",division)
-
+#For input [1, 2, 9, 4, 5], the return value should be 9.
+names = int(input("Enter numbers: "))
+list = []
+for i in range(names):
+    num = int(input())
+    list.append(num)
+print(list)
+max_num = max(list)
+print("The maximum number is:", max_num)
