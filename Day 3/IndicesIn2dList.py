@@ -1,0 +1,2 @@
+a =len([])
+print(a)
