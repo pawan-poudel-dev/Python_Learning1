@@ -1,5 +1,3 @@
-Visit MainProject 
-
 MedStore Wholesale Management System
 📌 Project Overview
 
